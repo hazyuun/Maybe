@@ -6,7 +6,7 @@ Monads are just monoids in the category of endofunctors what's the problem ?
 
 Seriously, wtf is a monad ?? Well hopefully it's gonna become clearer after reading this article.
 
-Ladies and gentlemen, welcome to attempting to understand wtf are monads [Part 1]
+Ladies and gentlemen, welcome to attempting to understand wtf are monads
 
 ## Attempt 0
 Monads are just monoids in the category of endofunctors
@@ -133,9 +133,7 @@ In this example, we had
 - The Just function is the Just function
 - The Bind function is the Bind function
 
-Hopefully you got a basic idea, now you can
-- Jump to the end of the article to understand Monads mathematically, and therefore understand the famous "A monad is just a monoid in the category of endofunctors" 
-- Continue reading, as we will make a generic Maybe library in C, that can be used with any data type (It's not about understanding monads anymore, so if you wanna do that, you can skip the next section)
+Hopefully you got a basic idea, now we will make a generic Maybe library in C, that can be used with any data type 
 
 ## Bonus : Writing a generic Maybe library in C
 But C doesn't have generic data types does it ? Well, it doesn't, but we can use generics anyway
